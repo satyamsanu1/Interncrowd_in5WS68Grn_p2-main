@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lato', sans-serif;
+
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right ,rgba(47, 114, 114, 0.333),rgba(207, 20, 207, 0.267))
+}
+
+.inner-box{
+    width: 350px;
+    margin: 0px auto;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: aliceblue;
+    border-radius:4px;
+
+}
+
+.login-header h1{
+    text-align: center;
+    font-size:2.5rem;
+    color: #212121;
+}
+
+.login-header p{
+    font: size 0.9rem;
+    color: #212121;
+}
+
+.login-body{
+    margin: 25px 0px;
+}
+
+.login-body{
+    margin: 20px 0;
+}
+
+.login-body p{
+    margin:10px 0;
+}
+.login-body p label{
+    display: block;
+
+}
+#submit{
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border-radius:none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color:#113349;
+}
+
+.login-footer{
+    color: #555;
+    text-align: center;
+}
+
+.login-footer p a{
+    color:#2773a5
+}
+
+.login-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
